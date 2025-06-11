@@ -28,6 +28,13 @@
                             <span>Dashboard</span>
                         </a>
                     </li>
+                    <!-- Backup Link -->
+                    <li @if(Route::currentRouteName()=='backup.index' ) class="active" @endif>
+                        <a href="{{ route('backup.index') }}">
+                            <i class="material-icons">backup</i>
+                            <span>Copia de Seguridad</span>
+                        </a>
+                    </li>
 
                     @php
 

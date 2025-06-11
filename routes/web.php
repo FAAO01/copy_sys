@@ -117,6 +117,7 @@ Route::get('logout','UserController@logout');
 
 });
 
+Route::get('backup', ['as'=>'backup.index','uses'=>'SettingController@backup']);
 
 Auth::routes();
 

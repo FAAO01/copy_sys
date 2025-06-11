@@ -4,7 +4,7 @@
 @section('title','Inventory | Configuración')
 
 
-@section('page-title','Configuración')
+@section('page-title','Configuración ')
 
 
 @section('content')
@@ -18,7 +18,7 @@
 			<div class="header">
 				<h2>
 					
-                   Cambiar la contraseña					
+                   Cambiar la contraseña 				
 				</h2>
 			</div>
 
