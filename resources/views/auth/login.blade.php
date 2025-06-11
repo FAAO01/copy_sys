@@ -7,7 +7,7 @@
 <body class="login-page">
     <div class="login-box">
         <div class="logo">
-            <a href="javascript:void(0);"><img class="img-fluid" src="{{ url('images/logo.png') }}" alt="inventory logo"> </a>
+            <a href="javascript:void(0);"><img class="img-fluid" src="{{ url('images/logo-ferreteria.png') }}" alt="inventory logo"> </a>
             <!-- <small>A Inventory Softwaare</small> -->
         </div>
         <div class="card">

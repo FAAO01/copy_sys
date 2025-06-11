@@ -3,7 +3,7 @@
             <!-- User Info -->
             <div class="user-info">
                 <div class="image">
-                    <img src="{{ url('images/user.png') }}" width="60" height="60" alt="User" />
+                    <img src="{{ url('images/user1.png') }}" width="60" height="60" alt="User" />
                 </div>
                 <div class="info-container">
                     <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ Auth::user()->name }}</div>

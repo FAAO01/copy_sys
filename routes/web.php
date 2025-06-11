@@ -118,6 +118,7 @@ Route::get('logout','UserController@logout');
 });
 
 Route::get('backup', ['as'=>'backup.index','uses'=>'SettingController@backup']);
+Route::get('backup/download', 'SettingController@downloadBackup');
 
 Auth::routes();
 

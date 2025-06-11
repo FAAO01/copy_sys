@@ -43,7 +43,6 @@ CREATE TABLE IF NOT EXISTS `companies` (
 -- Volcando datos para la tabla db_inventory.companies: ~0 rows (aproximadamente)
 DELETE FROM `companies`;
 INSERT INTO `companies` (`id`, `name`, `phone`, `address`, `created_at`, `updated_at`) VALUES
-	(1, 'StockInventarios', '9611702915', 'Calle 10 #123, Colonia San Pedro, Ciudad de México, Código Postal 01230.', NULL, '2023-04-17 05:35:09');
 
 -- Volcando estructura para tabla db_inventory.customers
 CREATE TABLE IF NOT EXISTS `customers` (
